@@ -1,4 +1,3 @@
 import requests
-print(requests.__version__)
-response = requests.get("https://google.com")
+response = requests.get("https://raw.githubusercontent.com/Leen-Alzebdeh/lab1/master/print_version.py")
 print(response.text)
